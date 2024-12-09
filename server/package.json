@@ -12,7 +12,8 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.21.2",
-    "pg": "^8.13.1"
+    "pg": "^8.13.1",
+    "yaml": "^2.6.1"
   },
   "name": "lumyn-mse-server",
   "version": "1.0.0",
