@@ -1,0 +1,7 @@
+port: 7444
+postgres:
+  host: localhost
+  user: postgres
+  password: %%%%
+  database: lumynmse
+  port: 5432
