@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "name": "lumyn-mse-server",
+  "version": "1.0.0",
+  "description": "Lumyn MSE Server application",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ametama/lumyn-mse"
+  },
+  "author": "ametama",
+  "license": "UNLICENSED"
+}
