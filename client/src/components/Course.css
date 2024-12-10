@@ -1,0 +1,34 @@
+.course-card {
+    height: 350px;
+    width: 240px;
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 11px;
+}
+
+.course-name {
+    margin: 8px 0 8px 0;
+}
+
+.course-desc {
+    font-size: 12px;
+    flex-grow: 1;
+}
+
+.course-button-box {
+    display: flex;
+    flex-direction: row-reverse;
+}

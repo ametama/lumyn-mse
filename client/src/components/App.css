@@ -1,0 +1,13 @@
+@import "./Course.css";
+@import "./Button.css";
+@import "./Memo.css";
+
+body {
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.2;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}

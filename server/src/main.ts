@@ -10,6 +10,10 @@ async function main() {
     const db = await PgDriver(cfg.postgres);
     const app = express();
     app.use(express.json());
+    app.use("/client", express.static("./client/dist"));
+    app.get("/", (req, res) => {
+        res.status(200).sendFile("./client/app.html", { root: process.cwd() });
+    });
     app.use(async (req, res, next) => {
         const authHeader = req.header("Authorization");
         if (authHeader === undefined) {
